@@ -29,6 +29,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    overflow-x: hidden;
 }
 
 article,aside,details,figcaption,figure,
@@ -191,5 +192,13 @@ main {
 }
 
 footer {
+
+    border: 0.1px solid rgb(83, 83, 83);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
