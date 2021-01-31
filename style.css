@@ -401,4 +401,11 @@ display: none;
     
     }
 
+    .things-image{
+        min-height: 25px;
+        min-width: 25px;
+        margin: 10px 10px;
+    
+    }
+
 }
