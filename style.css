@@ -60,7 +60,8 @@ h5{
 
 p{
     font-size: 10px;
-    padding: 10px;
+
+    color: grey;
 }
 
 header{
@@ -84,7 +85,6 @@ header{
 .logo{
     display: flex;
 
-    height: 100%;
     width: 200px;
     align-items: flex-end;
     justify-content: center
@@ -191,8 +191,8 @@ header{
 }
 
 .things-image{
-    min-height: 75px;
-    min-width: 75px;
+    min-height: 50px;
+    min-width: 50px;
     margin: 10px 10px;
 
 }
@@ -350,14 +350,58 @@ footer{
 
 @media screen and (max-width: 39.9375em) {
 
+    h1{
+        font-weight: 400;
+        font-size: 18px;    
+    }
+    
+    h2{
+        font-weight: 400;
+        font-size: 14px; 
+    
+    }
+    
+    h3{
+    
+        font-weight: 400;
+    }
+    
+    h4{
+    
+        font-weight: 400;
+    }
+    
+    h5{
+        font-size: 7px;
+        margin: none;
+    }
+    
+    p{
+        font-size: 6px;
+
+        
+    }
+
+    .card{
+    
+        max-width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px auto;
+        height: 100px;
+    }
+
     .nav{
         display: none;
     }
 
     .mobile-nav{
         background: var(--blue-light);
-        width: 50px;
-        height: 50px;
+        min-width: 25px;
+        min-height: 25px;
     }
 
     .carousel{
@@ -368,6 +412,7 @@ footer{
     .card{
         flex-direction: row;
         min-width: 100%;
+        align-items: flex-start;
     }
 
     .event-card{
@@ -382,10 +427,15 @@ footer{
 
     .things-text{
         text-align: left;
-        background: red;
-        padding: 10px;
+
+
         width: 100%;
-        margin: 10px 10px;
+      
+    }
+
+    .things-image{
+        min-width: 25px;
+        min-height: 25px;
     }
 
     .accordion-container{
@@ -401,11 +451,6 @@ display: none;
     
     }
 
-    .things-image{
-        min-height: 25px;
-        min-width: 25px;
-        margin: 10px 10px;
-    
-    }
+
 
 }
